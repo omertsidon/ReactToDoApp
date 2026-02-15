@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "./Footer";
 
 function App() {
   const [inputText, setInputText] = useState(""); // State for input text
@@ -38,6 +39,7 @@ function App() {
           ))}
         </ul>
       </div>
+      <Footer />
     </div>
   );
 }
